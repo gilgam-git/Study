@@ -45,8 +45,10 @@ int main()
     thread t1(func1);
     thread t2(func2);
     thread t3(func3);
+	thread t4(func4);
     t1.join();
     t2.join();
     t3.join();
+	t4.join();
     return 0;
 }
