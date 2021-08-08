@@ -39,6 +39,7 @@ void func4() {
         if(num == 0) isStop = true;
     }
 }
+
 int main()
 {
     thread t1(func1);
